@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Panel de Control</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Bienvenido, [Nombre del Usuario]</h2>
+        <h3>Autorizaciones Médicas</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID Autorización</th>
+                    <th>Fecha Solicitud</th>
+                    <th>Tipo de Tratamiento</th>
+                    <th>Descripción</th>
+                    <th>Estado</th>
+                    <th>Fecha Aprobación</th>
+                </tr>
+            </thead>
+            <!-- Agrega un cuerpo de la tabla con un ID -->
+            <tbody id="autorizaciones-body"></tbody>
+        </table>
+    </div>
+
+    <script src="frontend.js" defer></script>
+</body>
+</html>
